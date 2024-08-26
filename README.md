@@ -1,0 +1,2 @@
+# Sentiment_Analysis_Reviews_Charlotte_NC_Restaurants
+Used Python (Tokenization, Stemming and WordCloud) to prepare and visualize reviews of Charlotte, NC restaurants. Developed LDA topic model and classified a 14,000+ text corpus into key topics/labels using R-Studio with Radiant. Analyzed and obtained actionable insights from the observed result: sentiment score, review count, topics, and ratings.
