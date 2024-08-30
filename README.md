@@ -17,17 +17,21 @@ The project is essentially about text analysis. The text of customer reviews of 
 ## Word Cloud
 
 5 main themes were revealed: good, food, place, great, and service. These words are indicating that the dominant theme is about restaurants, about great food, and emotional and passionate the clients feel to comment. Joyous and positives predominate in the word cloud. To a restaurant business in the Charlotte area, this should be of interest, as the message coming across is that a good location, good food and great service can deliver a competitive edge, in a fairly crowded terrain.
+
 <img width="327" alt="image" src="https://github.com/user-attachments/assets/600af2d7-cb1f-4b0a-a596-1b6dc247bda9">
 
 ## Topic Modeling
 
 Latent Dirichlet Allocation (LDA) topic model was employed in selecting the number of topics to focus on. In determine the label for each topic, I have sense checked the theme running through each topic that also set each of them, to some extent, apart from the other ones. In the topics table below, the wining label, by and large, summed up the other words in the topic. 10 topics was chosen due to the dimension of the dataset – over 14,000 text corpus by several restaurants. After a few iterations, 10 topics felt about right.
+
 <img width="468" alt="image" src="https://github.com/user-attachments/assets/c3739805-6c3f-4a3d-88f7-ece843dc6d7a">
 
 The view is also presented in a chart format. Each topic consists of 20 words. Although some words such as food, good, and place are present in more than one topic (they are also prominent in the word cloud), the topics that fall under and other associated terms are suggest a high level of semantic similarity and coherence.
+
 <img width="468" alt="image" src="https://github.com/user-attachments/assets/f2144d11-24e7-4b29-bbcc-002ea74228c4">
 
 ## Regression Model
+
 <img width="468" alt="image" src="https://github.com/user-attachments/assets/3de57f98-5e9b-4473-8a09-7976ec68f6c1">
 
 The model is indicating that ‘joy’ has a positive relationship with ratings, in contrast to ‘disgust’ that shows an influence but in the opposite direction.
@@ -43,6 +47,7 @@ Trust, sadness, and anticipation all have relatively small negative impacts on r
 ## Analysis and Drawing Insights
 
 The relationships between Sentiments Score, Review count, Topics, and Ratings are captured in a table. Restaurant open vs. close status is also reflected in the chart.
+
 <img width="468" alt="image" src="https://github.com/user-attachments/assets/bf99c26e-7f7e-4d12-999b-6bab867c3d8e">
 
 There are some evidence that may support the argument that restaurants with higher ratings may have higher number of review. For example, higher reviews, ratings, and sentiments tend to go hand in hand. Topic 2 – Friendly had highest average total reviews, ratings, and sentiments scores. Open restaurants show significantly higher average reviews score than restaurants with close status. I have called out three topics to support this: topics 1 (breakfast/brunch), 3 (light food), and 6 (timely service).
