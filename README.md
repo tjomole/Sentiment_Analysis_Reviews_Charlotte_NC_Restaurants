@@ -55,3 +55,11 @@ There are some evidence that may support the argument that restaurants with high
 ## Conclusion
 
 The significance of the text analysis for sentiment and emotion, is indicating that the topics of the reviews are related to the ratings. Friendly, good food, and a nice location resonate with customers and move them to express joyous emotions. The metrics could point a restauranter in focus area in Charlotte to the fact that, although there may other strong factors in play, that are not captured in this excercise, positives emotions expressed by the consumers can be leveraged to hone their service quality. 
+
+## Languages
+
+Python - 60%
+
+R - 35%
+
+Microsoft Excel - 5%
