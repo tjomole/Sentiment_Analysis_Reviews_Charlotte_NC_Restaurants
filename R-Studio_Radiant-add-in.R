@@ -1,0 +1,8 @@
+library(readr)
+View(Sales_Data_Reg)
+install.packages("radiant")
+radiant::radiant()
+setwd("/Users/adetunjiomole/Documents/000 - Fall 2023/Courses/DSBA - 6277/Group Case Study/Working_Dir")
+getwd()
+data1 <- read_csv("/Users/adetunjiomole/Documents/000 - Fall 2023/Courses/DSBA - 6277/Group Case Study/Working_Dir/Sales_Data_Reg.csv",show_col_types = FALSE)
+head(data1, 5)
